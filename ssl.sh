@@ -16,7 +16,7 @@ x509_extensions = v3_req
 prompt = no
 
 [req_distinguished_name]
-countryName = Korea
+countryName = KR
 stateOrProvinceName = Seoul
 localityName = Seoul
 organizationName = SR
