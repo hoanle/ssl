@@ -4,7 +4,7 @@ IP=$(echo $1 | egrep -o "^[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}$")
 
 if [ ! $IP ]
 then
-    echo "Usage: ssl.sh 127.0.0.1"
+    echo "Usage: generate-ip-cert.sh 127.0.0.1"
     exit 1
 fi
 
@@ -16,7 +16,7 @@ x509_extensions = v3_req
 prompt = no
 
 [req_distinguished_name]
-countryName = KO
+countryName = XX
 stateOrProvinceName = N/A
 localityName = N/A
 organizationName = Self-signed certificate
