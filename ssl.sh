@@ -17,8 +17,8 @@ prompt = no
 
 [req_distinguished_name]
 countryName = KR
-stateOrProvinceName = Seoul
-localityName = Seoul
+stateOrProvinceName = SL
+localityName = SR
 organizationName = SR
 commonName = $IP: SR
 
