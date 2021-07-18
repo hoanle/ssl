@@ -30,6 +30,7 @@ subjectAltName = @alt_names
 
 [alt_names]
 IP.1 = $IP
+IP.2 = 127.0.0.1
 " > san.cnf
 
 openssl req -x509 -nodes -days 730 -newkey rsa:2048 -keyout key.pem -out cert.pem -config san.cnf
